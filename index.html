@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Clock</title>
     <style>
-         #showtime{
+         /* #showtime{
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-style: italic;
             font-size: 80px;
@@ -13,13 +13,30 @@
             color:white;
             background-color: black;
             position:absolute; top:40%; left:40%;;
+         } */
+         body{
+            background-color:black;
          }
-
-        
+         main{
+             display:flex;
+             align-items: center;
+             justify-content: center;
+             height: 100vh;
+         }
+         main h1{
+            color:white;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 70px;
+            font-style: italic;
+            border:0;
+         }
     </style>
 </head>
-<body style="background-color:black;">
-    <button id="showtime"></button>
+<body>
+<main>
+<h1 id="showtime">Clock Placeholder</h1>
+</main>
+    /* <button id="showtime"></button> */
     <script src='main.js'></script>
 </body>
 </html>
